@@ -32,3 +32,55 @@ body{
     background-size: cover;
 
 }
+header {
+    display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+header img {
+   display: block;
+   width: 4.5rem;
+   height: 4.5rem;
+   margin-right: 0.6rem;
+}
+
+header h1 {
+   margin: 0;
+   background-color: rgb(138, 255, 202);
+}
+
+header nav {
+   width: 100%;
+   text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(3, 74, 42);
+}
+article{
+    background-color: rgb(248, 248, 248);
+    flex-grow: 1;
+}
+aside{
+    background-color: rgb(204, 255, 218);
+    width: 200px;
+    padding: 0, 1rem;
+    
+}
+main{
+    display:flex;
+}
+footer{
+    background-color: rgb(0, 64, 16);
+    color: rgb(224, 255, 224);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+footer a{
+    font-size: 1.3rem;
+    padding:0.5rem;
+}
+
